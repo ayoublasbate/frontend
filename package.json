@@ -11,8 +11,9 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm start",
+    "build": "npm build --mode production",
+    "dev": "webpack --mode development --host 0.0.0.0 --disable-host-check",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
